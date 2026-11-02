@@ -3,8 +3,9 @@
 ### AIM:
 To design and implement a LangChain Expression Language (LCEL) expression that utilizes at least two prompt parameters and three key components (prompt, model, and output parser), and to evaluate its functionality by analyzing relevant examples of its application in real-world scenarios.
 
-## PROBLEM STATEMENT:
-To create an LCEL chain that accepts two inputs and generates meaningful responses using a language model.
+## Problem Statement:
+The aim of this program is to design and implement LangChain Expression Language (LCEL) using Python. It integrates a prompt template, OpenAI GPT-4o-mini language model, and output parser to generate responses based on user input. The program uses ChatPromptTemplate to create structured prompts and StrOutputParser to convert the AI response into plain text. It connects all the components using the LCEL pipe operator (|) and executes the chain using the invoke() method. The main objective is to generate simple, clear, and meaningful explanations for a given topic and display the final output to the user.
+
 
 ## DESIGN STEPS:
 
@@ -49,7 +50,8 @@ print("REG NO:212225220020")
 ```
 
 ## OUTPUT:
-<img width="1476" height="932" alt="image" src="https://github.com/user-attachments/assets/c94d8a3a-f194-4085-a1d7-ee54a633f3bf" />
+<img width="1717" height="917" alt="image" src="https://github.com/user-attachments/assets/51465ee1-a804-453f-9958-0e2298e9e3b4" />
+
 
 
 
